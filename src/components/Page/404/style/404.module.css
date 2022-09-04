@@ -1,0 +1,15 @@
+.notFound{
+    font-size: 32px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 13%;
+}
+.redirect{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 2.5%;
+}
+.redirect a{
+    color: darkorchid;
+    text-decoration: none;
+}

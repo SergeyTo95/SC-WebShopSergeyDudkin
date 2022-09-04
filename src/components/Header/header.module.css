@@ -1,0 +1,56 @@
+.header{
+   min-height: 50px;
+   display: flex;
+   background-color:none;  
+   z-index: 10;
+}
+.navheader{
+    padding: 25px;
+    margin-left: 30px;
+}
+
+.navheader a{
+    padding: 20px;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+.active {
+    size: 20px;
+    border-bottom: 2.3px solid mediumseagreen;
+    padding-bottom: 20px;
+}
+
+.logo img{
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  margin-left: 325px;
+  padding: 13px;
+  z-index: 10;
+}
+.currency{
+    display: flex;
+    padding: 5px;
+    top: 5px;
+    margin-left: 800px;
+}
+.circule{
+    position: relative;
+    width: 17px;
+    height: 17px;
+    margin-top: 12px;
+    margin-left: -25px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    z-index: 10000;
+ }
+.circuleItem{
+    position: relative;
+   margin-left: 4px;
+   z-index: 10000;
+}
+

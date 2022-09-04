@@ -1,0 +1,10 @@
+.allIpacity{
+    width: 100%;
+    min-height: 590px;
+    height: 100%;
+    box-shadow: inset 0px 0px 10px 11000vmax rgba(5, 0, 0, 0.48);
+
+}
+.allIpacity img{
+    opacity: 0.36;
+}

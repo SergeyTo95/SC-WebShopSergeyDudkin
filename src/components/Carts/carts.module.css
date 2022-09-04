@@ -1,0 +1,223 @@
+.carts{
+    position: relative;
+    max-height: 5000px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);  
+    z-index: 100;
+} 
+.cartMini{
+     position: absolute;
+     margin-top: 37px;
+     margin-left: 880px;
+     max-width: 300px;
+     background-color: rgb(255, 255, 255);  
+     z-index: 10000;
+}
+
+.increment{
+    position: absolute;
+    height: 23px;
+    width: 23px;
+    border: 1px black solid;
+    background: none;
+    margin-left: 125px;
+    margin-top: 110px;
+    z-index: 200; 
+    cursor: pointer;
+}
+.count{
+    position: absolute;
+    z-index: 150;
+    margin-left: 130px;
+    margin-top: 180px;
+    z-index: 100;
+}
+.decrement{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    border: 1px black solid;
+    background: none;
+    margin-left: 125px;
+    margin-top: 240px;
+    z-index: 200; 
+    cursor: pointer;
+}
+.bag{
+    position: absolute;
+    z-index: 110;
+}
+.hightLevel{
+    position: relative;
+    max-height: 25px;
+    max-height: 800px;
+    width: 300px;
+    padding: 10px;
+}
+.middleLevel{
+    position: relative;
+    max-height: 800px;
+    width: 300px;
+    margin-left: 5px;
+    margin-top: -170px;
+    z-index: 150;
+}
+.brandProduct{
+    margin-bottom: 10px;
+}
+.nameContainer{
+    max-width: 100px;
+}
+.nameProduct{
+    margin-bottom: 15px;
+}
+.containerImg{
+    max-height: 170px;
+    margin-top: 30px;
+}
+.imgProduct{
+    height: 170px;
+    min-height: 100px;
+    width: 135px;
+    margin-left: 150px;
+    margin-top: 0;
+}
+.button{
+    min-width: 25px;
+    margin-top: -275px;
+}
+
+.price{
+    margin-top: 15px;
+}
+.attributesContainer{
+    max-width: 140px;
+}
+.attributesName{
+    font-weight: bold;
+    max-width: 80px;
+    margin-top: 10px;
+    
+}
+.attributesButton{
+    display: inline-block;
+    padding-left: 3px;
+    padding-top: 3px;
+    
+} 
+.itemsAttrributes{
+    max-width: 41px;
+    min-width: 13px;
+    max-height: 30px;
+    text-align: center;
+    line-height: 24px; 
+    border: 1px solid black;
+    background: white; 
+}
+.itemsAttrributesActive{ 
+    max-width: 41px;
+    min-width: 13px;
+    max-height: 31px;
+    line-height: 24px;
+    background: black;
+    color: white; 
+}
+.itemsAttrributesColor{
+    max-width: 50px;
+    min-width: 20px;
+    height: 20px;
+    text-align: center;
+    background: white; 
+}
+.itemsAttrributesColorWhite{
+    max-width: 50px;
+    min-width: 19px;
+    height: 19px;
+    border: 1px solid black;
+    text-align: center;
+    background: white; 
+}
+.itemsAttrributesColorActive{
+    max-width: 48px;
+    min-width: 20px;
+    height: 20px;
+    text-align: center; 
+    border: 2px solid rgb(32, 255, 50);
+}
+.itemsAttrributesColorActiveWhite{
+    max-width: 48px;
+    min-width: 19px;
+    height: 19px;
+    border: 2px solid rgb(32, 255, 50);
+    text-align: center; 
+}
+.buttonInfo{
+    max-width: 50px;
+    min-width: 20px;
+    height: 20px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+ }
+ .buttonInfoActive{
+    max-width: 50px;
+    min-width: 20px;
+    height: 20px;
+    background: transparent;
+    color: white;
+    border: none;
+ }
+ 
+ .praceTotalContainer{
+    position: relative;
+     z-index: 150;
+     max-height: 350px;
+     max-width: 20px;
+     
+ }
+ .praceTotal{
+    position: relative;
+    margin-left: 190px;
+    margin-top: -20px;
+    z-index: 150;
+ }
+ .total{
+    position: relative;
+     margin-top: 55px;
+     margin-left: 5px;
+     z-index: 150;
+ }
+.layoutLavel{
+    max-height: 800px;
+    margin-bottom: 100px;
+}
+.viewBag{
+   position: absolute;
+   margin-left: 10px;
+   margin-top: 55px;
+   z-index: 100;
+   
+}
+.btnViewBag{
+    background-color:white;
+    width: 90px;
+    height: 40px;
+    font-size: 12px;
+    cursor: pointer;
+    
+}
+.checkOut{
+   position: absolute;
+   margin-left: 180px;
+   margin-top: 55px;
+   z-index: 100;
+}
+.btnCheckOut{
+    background-color: rgb(142, 253, 31);
+    color: white;
+    font-size: 12px;
+    width: 90px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}

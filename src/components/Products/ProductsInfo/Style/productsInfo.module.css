@@ -1,0 +1,235 @@
+.nameContainer{
+    position: absolute;
+    margin-left: 75%;
+    margin-top: 20px;
+    z-index: 5;
+}
+.imageContainer{
+    position: absolute;
+    margin: -50px 0px 0px 280px;
+    z-index: 1;
+}
+.layoutContainer{
+    height: 300px;
+}
+
+.buttonCart{
+    height: 40px;
+    width: 200px;
+    margin-top: 30px;
+    text-align: center;
+    border: none;
+    line-height: 40px;
+    cursor: pointer;
+    background-color: rgb(28, 253, 28);
+    color: white;
+}
+.arialDescription{
+    max-width: 300px;
+    padding-top: 30px;
+}
+.description{
+    font-size: 17px;
+}
+.brand{
+    padding-top: 5%;
+    font-size: 22px;
+}
+.name{
+    padding-top: 0px;
+}
+.textPrice{
+    margin-top: 50px;
+    font-weight: bold;
+}
+.price{
+    
+    font-weight: bold;
+}
+.divUp{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: none;
+    cursor: pointer;
+    z-index: 100;
+}
+.divUp :hover{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: -5px;
+    margin-left: 115px;
+    border-top: 4.5px solid #000000 !important;
+    border-right: 4.5px solid #000000 !important;
+    transform: rotate(-45deg);
+    z-index: 1000;
+    transition: 1s;
+}
+.divDown{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    background-color: none;
+    cursor: pointer;
+}
+.divDown :hover{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 115px;
+    border-top: 4.5px solid #000000 !important;
+    border-right: 4.5px solid #000000 !important;
+    transform: rotate(135deg);
+    z-index: 1000;
+    transition: 1s;
+}
+.up{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: -5px;
+    margin-left: 115px;
+    border-top: 3.5px solid #c4c4c4 !important;
+    border-right: 3.5px solid #c4c4c4 !important;
+    transform: rotate(-45deg);
+    z-index: 1000;
+    transition: 1s;
+}
+
+.down{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 115px;
+    border-top: 3.5px solid #c4c4c4 !important;
+    border-right: 3.5px solid #c4c4c4 !important;
+    transform: rotate(135deg);
+    z-index: 1000;
+}
+
+.attributesName{
+    font-weight: bold;
+    padding-top: 15px;
+}
+.gallery{
+    width: 600px;
+    height: 550px;
+    margin-top: 40px;
+    transition: 1s;
+}
+.gallery:hover{
+    transform: scale(1.1);
+}
+
+.MIni{
+  margin-top: 25px;
+}
+.minigallery{
+    height: 105px;
+    width: 105px;
+    display: block;
+    margin-left: 80px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.minigallery:hover{
+    transform: scale(1.2);
+}
+.onegallery{
+    height: 110px;
+    width: 110px;
+    display: block;
+    margin-left: 80px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.onegallery:hover{
+    transform: scale(1.2);
+}
+.attributes{
+    max-height: 300px;
+    max-width: 200px;
+}
+.attributesButton{
+    display: inline-block;
+    padding-left: 3px;
+    padding-top: 3px;
+} 
+.itemsAttrributes{
+    max-width: 41px;
+    min-width: 13px;
+    max-height: 30px;
+    text-align: center;
+    line-height: 24px; 
+    border: 1px solid black;
+    background: white; 
+}
+.itemsAttrributesActive{ 
+    max-width: 41px;
+    min-width: 13px;
+    max-height: 31px;
+    line-height: 24px;
+    background: black;
+    color: white; 
+}
+.itemsAttrributesColor{
+    max-width: 50px;
+    min-width: 20px;
+    height: 20px;
+    text-align: center;
+    background: white; 
+}
+.itemsAttrributesColorWhite{
+    max-width: 50px;
+    min-width: 19px;
+    height: 19px;
+    border: 1px solid black;
+    text-align: center;
+    background: white; 
+}
+.itemsAttrributesColorActive{
+    max-width: 48px;
+    min-width: 20px;
+    height: 20px;
+    text-align: center; 
+    border: 2px solid rgb(32, 255, 50);
+}
+.itemsAttrributesColorActiveWhite{
+    max-width: 48px;
+    min-width: 19px;
+    height: 19px;
+    border: 2px solid rgb(32, 255, 50);
+    text-align: center;
+}
+.buttonInfo{
+    max-width: 50px;
+    min-width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+ }
+ .buttonInfoActive{
+    max-width: 50px;
+    min-width: 20px;
+    height: 20px;
+    
+    background: transparent;
+    color: white;
+    border: none;
+ }
+ .notAvailable{
+     font-size: 16px;
+     font-weight:bolder;
+     margin-top: 18px;
+     color: red;
+ }
+
+
+

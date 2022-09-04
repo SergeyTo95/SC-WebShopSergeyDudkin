@@ -1,0 +1,86 @@
+
+.current-page {
+  
+  font-size: 14px;
+  margin-left: 46.5%;
+  min-height: 100%;
+  font-weight:bolder;
+  vertical-align: middle;
+  line-height: 1; 
+}
+
+ul.pagination {
+  position: absolute;
+  margin-left: 46.5%;
+  padding: 6px;
+  display: flex;
+  z-index: 1;
+}
+
+  ul.pagination li.page-item.active a.page-link {
+    color: #445565 !important;
+    background-color: #e3e7eb !important;
+  }
+    
+  ul.pagination a.page-link {
+    padding: 8px;
+    max-width: 10px;
+    text-align: center;
+    box-shadow: none !important;
+    border-color: #ced4da !important;
+    color: #6b88a4;
+    font-weight: 900;
+    font-size: 13px;
+  }
+    ul.pagination a.page-link:hover {
+      background-color: #f4f4f4; 
+    }
+  
+    .title {
+      text-align: center;
+    }
+    
+    .custom-select-container {
+      display: inline-block;
+      min-width: 70px;
+      text-align: center;
+      position: relative;
+      
+    }
+    
+    .selected-text {
+      padding: 6px 20px;
+
+    }
+    
+    .selected-text::after {
+      width: 5px;
+      height: 5px;
+      content: "";
+      position: absolute;
+      top: 15px;
+      margin-left: 5px;
+      border-top: 1.5px solid #000000 !important;
+      border-right: 1.5px solid #000000 !important;
+      transform: rotate(135deg);
+      display: inline-block;
+      transition: 0.5s;
+    }
+    
+    .selected-text.active::after {
+      width: 5px;
+      height: 5px;
+      content: "";
+      position: absolute;
+      margin-left: 5px;
+      border-top: 1.5px solid #000000 !important;
+      border-right: 1.5px solid #000000 !important;
+      transform: rotate(-45deg);
+      display: inline-block;
+      transition: 0.5s;
+    }
+    .select-options {
+      position: absolute;
+      box-shadow: 0px 0px 6px 4px rgba(70, 69, 69, 0.068);
+      z-index: 100000;
+    }

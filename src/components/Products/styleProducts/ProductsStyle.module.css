@@ -1,0 +1,37 @@
+.categoryName {
+    margin-left: 70px;
+    padding-top: 40px;
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.productsList{
+    display:flex;
+    margin-left: 20%;
+}
+
+.row {
+    margin: 8px -16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+    padding: 20px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width:28%;
+    margin-left: 43px;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

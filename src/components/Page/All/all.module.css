@@ -1,0 +1,10 @@
+.allIpacity{
+    box-shadow: 0 0 0 3000px rgba(5, 0, 0, 0.627) inset ;
+}
+.allIpacity img{
+    opacity: 0.2;
+}
+.allIpacity img :hover{
+    opacity: 0.2;
+}
+

@@ -1,0 +1,17 @@
+.Cart{
+    position: relative;
+    padding: 4px;
+    z-index: 10000;
+}
+.Wheel1{
+    position: relative;
+    margin: -20px;
+    margin-left: 10px;
+    z-index: 10000;
+}
+.Wheel2{
+    position: relative;
+    padding-left: 37px;
+    margin: -21px;
+    z-index: 10000;
+}

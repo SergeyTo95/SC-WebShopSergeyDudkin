@@ -1,0 +1,22 @@
+
+ul {
+  position: absolute;
+  min-width: 80px;
+  margin: 0;
+  padding: 0px;
+  text-align: center;
+  z-index: 50;
+}
+
+
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+li:hover {
+  
+  background-color: #d0d1d1;
+  color: #0a0a0a;
+}
