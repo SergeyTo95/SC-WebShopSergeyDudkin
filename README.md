@@ -1,3 +1,0 @@
-# SC-WebShopSergeyDudkin
-
-Update Project
